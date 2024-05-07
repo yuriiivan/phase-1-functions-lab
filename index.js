@@ -1,4 +1,3 @@
-// Code your solution in this file!
 function distanceFromHqInBlocks(destination){
     return Math.abs(destination - 42)
 }
@@ -12,8 +11,6 @@ function distanceTravelledInFeet(start, destination){
 }
 
 function calculatesFarePrice(start, destination){
-    //Destination in feet
-    // const distance = start > destination ? (start - destination) * 264 : (destination - start) * 264
     const distance = distanceTravelledInFeet(start, destination)
     if(distance <= 400 ){
         return 0;
